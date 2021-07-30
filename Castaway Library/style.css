@@ -1,0 +1,55 @@
+#banner{
+	width: 100%;
+	position: relative;
+}
+
+.sidebar{
+	border:  1px solid black;
+	width: 30%;
+	padding: 1%;
+	margin: 15px;
+}
+#signin{
+	width: 2.5%;
+	height: 2.5%;
+
+}
+#menu{
+	width: 2.5%;
+	height: 2.5%;
+}
+body{
+	font-family: 'Adamina', serif;
+	background-color: #DADFCE;
+}
+.bookcovers{
+	width: 200px;
+	height: 320px;
+}
+.normtext{
+	font-size: 12px;
+}
+#books{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+li{
+	list-style-type:  none;
+}
+#reclists{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+#title{
+	position: realtive;
+	text-align: center;
+}
+#icons{
+	position:  relative;
+	top: 10%;
+	left: 92%;
+}
